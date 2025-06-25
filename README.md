@@ -1,5 +1,7 @@
 # Helmet-detection-and-number-plate-Extraction
 This abstract presents a powerful video analysis solution that seamlessly combines cutting-edge technologies for enhanced safety and actionable insights. By integrating YOLO object detection and a custom CNN model, the system rapidly identifies bikes, assesses helmet usage, and even extracts alphanumeric details from number plates. The YOLO algorithm efficiently detects objects of interest, while the CNN model precisely classifies helmet presence. Leveraging OCR, the system extracts vehicle identification from number plates. Real-time visual overlays of bounding boxes, helmet labels, and extracted values offer immediate situational awareness. This technology holds great potential for safety enforcement, traffic monitoring, and data-driven decision-making. The demonstrated framework showcases the fusion of object detection, classification, and data extraction, creating a versatile solution with applications across diverse industries.
+
+
 Technical Flowchart
 ![image](https://github.com/user-attachments/assets/59c54b55-2197-4faf-8547-03168e77d22a)
 
