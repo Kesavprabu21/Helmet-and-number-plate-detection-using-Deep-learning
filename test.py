@@ -13,7 +13,7 @@ import pickle
 mp_drawing = mp.solutions.drawing_utils
 mp_holistic = mp.solutions.holistic
 
-DEMO_VIDEO = 'D:/projects/Helmet-detection-and-number-plate-Extraction-main/video.mp4'
+DEMO_VIDEO = 'demo.mp4'
 
 st.title('Pose detection and classification')
 
@@ -165,12 +165,11 @@ elif app_mode =='Run on Video':
         kpi3_text = st.markdown("0")
 
     st.markdown("<hr/>", unsafe_allow_html=True)
-    
-    
+
     import pandas as pd
     from sklearn.model_selection import train_test_split
-    
-    data = pd.read_csv('D:/projects/Helmet-detection-and-number-plate-Extraction-main/coordss.csv')
+
+    data = pd.read_csv('coordss.csv')
     X = data.drop('class', axis=1)  # Features
     y = data['class']
     with open('body_language(rf).pkl', 'rb') as f:
